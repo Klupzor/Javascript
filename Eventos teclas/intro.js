@@ -35,3 +35,8 @@ amigos.sort(); los muestra en orden alfabetico
 valor= prompt("mensaje","valor por defecto")  con esto lanzamos un mensaje y capturamos valor del usuario
 
 */
+
+var parrafo = document.createElement("p");
+var contenido = document.createTextNode("Mi primer texto");
+parrafo.appendChild(contenido);
+document.body.appendChild(parrafo);
